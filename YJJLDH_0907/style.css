@@ -1,0 +1,45 @@
+.image{
+    border-radius: 50%;
+    width: 23%;
+    height: auto;
+    
+}
+
+table{
+    width: 100vw;
+    border: none;
+}
+
+.img{
+    text-align: center;
+    border: none;
+}
+
+body{
+    background-color:rgb(6, 197, 181);
+}
+
+td, tr,th{
+    border: 1px solid rgb(47, 7, 224);
+}
+
+.content{
+    border: none;
+}
+
+.img2{
+    width: 50%;
+    height: auto;
+    filter: grayscale(70%);
+}
+
+.alma{
+    text-align: center;
+}
+
+.img3{
+    border-radius: 80%;
+}
+.img4{
+    border-radius: 30%;
+}
