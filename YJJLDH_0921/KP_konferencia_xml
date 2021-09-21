@@ -1,0 +1,25 @@
+<? xml version="1.0" encoding="utf-8"?>
+
+<konferencia>
+	<cím>Gyakorlat</cím>
+	<hallgatók>
+		<hallgató>
+			<név>Krompaszki Patrik</név>
+			<cím>Miskolc</cím>
+		</hallgató
+	</hallgatók>
+	<helyszín>
+		Miskolci Egyetem
+	</helyszín>
+	<előadó>
+			<név>Dr.Bednarik László</név>
+			<adószám>1111</adószám>
+			<lakcím>Miskolc</lakcím>
+			
+	</előadó>
+	<dátum>
+		2021.09.21
+	</dátum>
+
+
+</konferencia>
