@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE konyvtar SYSTEM "konyv.dtd">
+
+<konyvtar>
+    <konyv id="1">
+        <cim>Windows10 mindenkinek</cim>
+        <kiadasiev>2016</kiadasiev>
+        <kiado>BBS-INFO KÖNYVK. ÉS INFORM. KFT.</kiado>
+        <szerzo>Bártfai Barnabás</szerzo>
+    </konyv>
+    <konyv id="2">
+        <cim>DarkNet - avagy az internet sötét oldala</cim>
+        <kiadasiev>2021</kiadasiev>
+        <kiado>BBS-Info Kft.</kiado>
+        <szerzo>Nagy Róbert</szerzo>
+    </konyv>
+    <konyv id="3">
+        <cim>Hogyan írj extrém gyors programot: Bevezetés a CUDA programozásba</cim>
+        <kiadasiev>2020</kiadasiev>
+        <kiado>BBS-Info Kft.</kiado>
+        <szerzo>Fehér Krisztián</szerzo>
+        <szerzo>Bártfai Barnabás</szerzo>
+    </konyv>
+</konyvtar>    

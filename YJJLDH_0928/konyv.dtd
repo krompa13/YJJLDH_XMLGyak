@@ -1,0 +1,31 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT konyvtar (konyv*)>
+<!ATTLIST konyvtar CDATA #FIXED ''>
+
+<!ELEMENT konyv (cim,kiadas,kiado,szerzo+)>
+
+<!ATTLIST konyv
+    CDATA #FIXED ''
+    id CDATA #REQUIRED
+    mufaj NMTOKEN #REQUIRED>
+
+<!ELEMENT cim EMPTY>
+<!ATTLIST cim
+    CDATA #FIXED ''
+    nev NMTOKEN #REQUIRED>
+
+<!ELEMENT kiadas EMPTY>
+<!ATTLIST kiadas
+    CDATA #FIXED ''
+    evjarat CDATA #REQUIRED>
+
+<!ELEMENT kiado EMPTY>
+<!ATTLIST kiado
+    CDATA #FIXED ''
+    nev NMTOKEN #REQUIRED>
+
+<!ELEMENT szerzo EMPTY>
+<!ATTLIST szerzo
+    CDATA #FIXED ''
+    nev NMTOKEN #REQUIRED>
