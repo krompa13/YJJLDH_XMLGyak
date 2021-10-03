@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE konyvtar SYSTEM "konyv.dtd">
+<!DOCTYPE books SYSTEM "konyv.dtd">
 
-<konyvtar>
+<books>
     <konyv id="1">
         <cim>Windows10 mindenkinek</cim>
         <kiadasiev>2016</kiadasiev>
@@ -22,4 +22,4 @@
         <szerzo>Fehér Krisztián</szerzo>
         <szerzo>Bártfai Barnabás</szerzo>
     </konyv>
-</konyvtar>    
+</books>    
