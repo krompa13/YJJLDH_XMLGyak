@@ -1,31 +1,13 @@
-<?xml encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT konyvtar (konyv*)>
-<!ATTLIST konyvtar CDATA #FIXED ''>
+<!DOCTYPE books
+[
+<!ELEMENT books (konyv+)>
+<!ELEMENT konyv (cim, kiadas_ev, kiado, szerzo+)>
+<!ATTLIST konyv ID #REQUIRED>
+<!ELEMENT cim (#PCDATA)>
+<!ELEMENT kiadas_ev (#PCDATA)>
+<!ELEMENT kiado (#PCDATA)>
+<!ELEMENT szerzo (#PCDATA)>
 
-<!ELEMENT konyv (cim,kiadas,kiado,szerzo+)>
-
-<!ATTLIST konyv
-    CDATA #FIXED ''
-    id CDATA #REQUIRED
-    mufaj NMTOKEN #REQUIRED>
-
-<!ELEMENT cim EMPTY>
-<!ATTLIST cim
-    CDATA #FIXED ''
-    nev NMTOKEN #REQUIRED>
-
-<!ELEMENT kiadas EMPTY>
-<!ATTLIST kiadas
-    CDATA #FIXED ''
-    evjarat CDATA #REQUIRED>
-
-<!ELEMENT kiado EMPTY>
-<!ATTLIST kiado
-    CDATA #FIXED ''
-    nev NMTOKEN #REQUIRED>
-
-<!ELEMENT szerzo EMPTY>
-<!ATTLIST szerzo
-    CDATA #FIXED ''
-    nev NMTOKEN #REQUIRED>
+]>
