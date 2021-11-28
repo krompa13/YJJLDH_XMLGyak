@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><jogositvany xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSDYJJLDH.xsd">
+    <tanulo id="1">
+        <vezeteknev>Riz</vezeteknev>
+        <keresztnev>Ottó</keresztnev>
+        <szido>1999.10.11</szido>
+    </tanulo>
+    <tanulo id="2">
+        <vezeteknev>Bekre</vezeteknev>
+        <keresztnev>Pál</keresztnev>
+        <szido>1996.07.16</szido>
+    </tanulo>
+    <tanulo id="3">
+        <vezeteknev>Elektrom</vezeteknev>
+        <keresztnev>Ágnes</keresztnev>
+        <szido>2000.12.03</szido>
+    </tanulo>
+    <autosiskola id="1">
+        <nev>UNI Autósiskola</nev>
+        <helyszin>Miskolc</helyszin>
+    </autosiskola>
+    <autosiskola id="2">
+        <nev>Árvai Autósiskola</nev>
+        <helyszin>Miskolc</helyszin>
+    </autosiskola>
+    <kreszvizsga id="1" tanuloID="1">
+        <idopont>2021.11.05</idopont>
+        <eredmeny>Átment</eredmeny>
+        <vizsgadij>4600</vizsgadij>
+    </kreszvizsga>
+    <kreszvizsga id="2" tanuloID="2">
+        <idopont>2021.11.15</idopont>
+        <eredmeny>Megbukott</eredmeny>
+        <vizsgadij>9200.0</vizsgadij>
+    </kreszvizsga>
+    <kreszvizsga id="3" tanuloID="3">
+        <idopont>2021.11.20</idopont>
+        <eredmeny>Átment</eredmeny>
+        <vizsgadij>4600</vizsgadij>
+    </kreszvizsga>
+    <oktato autosiskolaID="1" id="1">
+        <vezeteknev>Meg</vezeteknev>
+        <keresztnev>Győző</keresztnev>
+        <szido>1988.04.16</szido>
+    </oktato>
+    <oktato autosiskolaID="1" id="2">
+        <vezeteknev>Ceruza</vezeteknev>
+        <keresztnev>Elemér</keresztnev>
+        <szido>1975.10.09</szido>
+    </oktato>
+    <oktato autosiskolaID="2" id="3">
+        <vezeteknev>Fehér</vezeteknev>
+        <keresztnev>Farkas</keresztnev>
+        <szido>1979.11.16</szido>
+    </oktato>
+    <oktato autosiskolaID="2" id="4">
+        <vezeteknev>Légy</vezeteknev>
+        <keresztnev>Ottó</keresztnev>
+        <szido>1985.02.16</szido>
+    </oktato>
+    <jarmu id="SSS-567" oktatoID="1">
+        <gyarto>Suzuki</gyarto>
+        <tipus>SX4-CROSS</tipus>
+        <evjarat>2021</evjarat>
+    </jarmu>
+    <jarmu id="MLN-391" oktatoID="2">
+        <gyarto>Skoda</gyarto>
+        <tipus>Octavia</tipus>
+        <evjarat>2015</evjarat>
+    </jarmu>
+    <jarmu id="PPQ-564" oktatoID="3">
+        <gyarto>Volkswagen</gyarto>
+        <tipus>Golf</tipus>
+        <evjarat>2017</evjarat>
+    </jarmu>
+    <jarmu id="PSW-234" oktatoID="4">
+        <gyarto>Opel</gyarto>
+        <tipus>Astra</tipus>
+        <evjarat>2013</evjarat>
+    </jarmu>
+    <forgalmivizsga id="1" tanuloID="1">
+        <idopont>2021.08.15</idopont>
+        <eredmeny>Átment</eredmeny>
+        <vizsgadij>11000</vizsgadij>
+        <vizsgaztato>Git Áron</vizsgaztato>
+    </forgalmivizsga>
+    <forgalmivizsga id="2" tanuloID="2">
+        <idopont>2021.08.15</idopont>
+        <eredmeny>Megbukott</eredmeny>
+        <vizsgadij>11000</vizsgadij>
+        <vizsgaztato>Git Áron</vizsgaztato>
+    </forgalmivizsga>
+    <forgalmivizsga id="3" tanuloID="3">
+        <idopont>2021.08.20</idopont>
+        <eredmeny>Átment</eredmeny>
+        <vizsgadij>11000 </vizsgadij>
+        <vizsgaztato>Trab Antal</vizsgaztato>
+    </forgalmivizsga>
+</jogositvany>
