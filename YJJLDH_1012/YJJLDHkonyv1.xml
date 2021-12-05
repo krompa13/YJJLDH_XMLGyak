@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLoaction="konyv1.xsd">> 
+    <konyv>
+        <cim>Egyszer volt hol nem volt</cim>
+        <szerzo>Andersen</szerzo>
+        <szereplo>
+            <nev>Béla</nev>
+            <baratja>Feri</baratja>
+            <szuletett>1996</szuletett>
+            <jellemzes>szorgalmas</jellemzes>
+        </szereplo>
+        <szereplo>
+            <nev>Feri</nev>
+            <szuletett>1999</szuletett>
+            <jellemzes>baratságos</jellemzes>
+        </szereplo>
+    </konyv>
+    <isbn>""</isbn>
+</konyvek>
